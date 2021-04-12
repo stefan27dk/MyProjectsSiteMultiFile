@@ -45,7 +45,7 @@ img.view-Img-Button {
 .overlay_Window
 {
     display: none; 
-    background-color:rgba(9, 21, 34, 0.7);
+    background-color:rgba(92, 116, 141, 0.7);
     position: absolute; 
     z-index: 100;  
     width: 100%; 

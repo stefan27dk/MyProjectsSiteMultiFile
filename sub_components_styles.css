@@ -23,9 +23,9 @@
     bottom: 50px;
     right: 30px;
     cursor: zoom-in;
-    border-radius: 8px;
-    box-shadow: 0 0 5px 5px rgba(35, 36, 66, 0.811);
-    border: 1px solid rgb(33, 33, 49);
+    /* box-shadow: 0 0 5px 5px rgba(35, 36, 66, 0.811); */
+    filter: drop-shadow(0  0  8px rgb(0, 0, 0));
+    /* border: 1px solid rgb(86, 84, 212); */
 
 }
 
@@ -45,7 +45,7 @@ img.view-Img-Button {
 .overlay_Window
 {
     display: none; 
-    background-color:rgba(92, 116, 141, 0.7);
+    background-color:rgba(14, 22, 31, 0.8);
     position: absolute; 
     z-index: 100;  
     width: 100%; 

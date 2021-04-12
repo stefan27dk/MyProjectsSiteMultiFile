@@ -58,6 +58,7 @@
        let elements = document.getElementById('projects_holder');
        elements.style.zIndex='100';
        elements.opacity = '1';
+       document.getElementById('content_Elements_Holder').style.overflowY='auto';
 
         if(cv != null)
         {
@@ -81,6 +82,7 @@
         let elements = document.getElementById('projects_holder');
         elements.style.zIndex = '-1';
         elements.opacity = '0';
+        document.getElementById('content_Elements_Holder').style.overflowY='hidden';
 
 
         if(cv == null)
@@ -113,7 +115,6 @@ function remove_Loading_info() {
     function ViewImage(imgName) {
         document.getElementById("overlayWindow").style.display = 'block'; // Show overlayWindow
         document.getElementById('overlayImg').src = window[imgName]; // Static img Tag
-        document.getElementById('content_Elements_Holder').style = 'overflow-y:hidden;'; // Hide Overflow
     }
 
 

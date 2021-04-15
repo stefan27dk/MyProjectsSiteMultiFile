@@ -99,6 +99,7 @@
     overflow: auto;
     overflow-x: hidden;
 
+
     background: linear-gradient(to bottom, rgb(34, 38, 54) 20%, #2b3336 100%);
     box-shadow: 0 0 2pt 2pt rgb(33, 33, 36);
     border: solid 2px rgb(17, 17, 22);
@@ -126,8 +127,15 @@
 
 /* --------Content - Item---IMG-----*/
 .contentContainer_Item {
-    width: 17em;
-    height: 10em;
+    width: 50vw;
+    height: 40vh;
+
+    min-height: auto;
+    min-width: 10vw;
+
+    max-width: 17em;
+    max-height: 10em;
+
     box-shadow: 0 0 10pt 3pt rgb(0, 0, 0);
     /* filter: drop-shadow(0 0.2rem 0.25rem rgb(0, 0, 0)); */
     border-radius: 5px;
@@ -151,6 +159,13 @@
 
 
 
+
+
+ /*------The Div that holds the items ViewIMG button, <a> and the Element <img>-----------*/
+ .contentContainer_Item_Holder {
+    position: relative;
+    display: block; 
+}
 
 
 

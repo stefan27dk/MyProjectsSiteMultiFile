@@ -14,7 +14,6 @@
 
 
 // ============= ::Time--Counter:: =========================================================================================================
- 
     var sec = 0;
     function pad(val) { return val > 9 ? val : "0" + val; } // Shows 0 before the number from 0 to 9 (00:00:01, 00:00:02, 00:00:03 ...)
     setInterval(function () {
